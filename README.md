@@ -78,6 +78,24 @@ docker-compose up --build
 
 That's it. One command spins up all 4 services.
 
+
+## 📸 Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Analytics
+![Charts](screenshots/charts.png)
+
+### Flagged Cases
+![Flagged Cases](screenshots/flagged-cases.png)
+
+### Audit Log
+![Audit Log](screenshots/audit-log.png)
+
 ### Access
 
 | Service | URL |
