@@ -155,19 +155,7 @@ audit_logs   — id, action, entity_type, entity_id, performed_by, timestamp, de
 
 ---
 
-## 📝 Resume Bullets
 
-```
-• Built real-time fraud detection platform using microservices architecture
-• Integrated Python XGBoost ML model via REST API into Java Spring Boot backend
-• Implemented JWT authentication and role-based access control
-• Built rule-based compliance engine with ML integration (velocity, geolocation, time rules)
-• Designed admin case management workflow with full compliance audit trails
-• Implemented WebSocket real-time transaction streaming
-• Containerized all services with Docker Compose for one-command deployment
-• Documented REST APIs using OpenAPI/Swagger
-• Processed transactions with risk scoring latency under 200ms
-```
 
 ---
 
