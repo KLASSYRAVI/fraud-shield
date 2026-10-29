@@ -70,7 +70,7 @@ const Dashboard = () => {
     fetchData();
 
     const client = new Client({
-      webSocketFactory: () => new SockJS('http://localhost:8081/ws'),
+      webSocketFactory: () => new SockJS(`${(import.meta.env.VITE_BACKEND_URL || 'http://localhost:8081').replace(/\/$/, '')}/ws`),
       onConnect: () => {
         client.subscribe('/topic/transactions', (message) => {
           const newTx = JSON.parse(message.body);
